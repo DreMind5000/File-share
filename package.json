@@ -5,7 +5,7 @@
   "author": "Dapp University",
   "homepage": ".",
   "dependencies": {
-    "@truffle/hdwallet-provider": "^1.1.0",
+    "@truffle/hdwallet-provider": "^1.5.0",
     "babel-polyfill": "6.26.0",
     "babel-preset-env": "1.7.0",
     "babel-preset-es2015": "6.24.1",
@@ -17,6 +17,7 @@
     "chai-as-promised": "7.1.1",
     "chai-bignumber": "3.0.0",
     "dotenv": "^8.2.0",
+    "fs": "^0.0.1-security",
     "identicon.js": "^2.3.3",
     "ipfs-http-client": "^33.1.1",
     "moment": "^2.29.1",
@@ -28,6 +29,7 @@
     "truffle-hdwallet-provider-privkey": "^0.3.0",
     "web3": "^1.3.0"
   },
+  "hompage": "http://dremind5000.github.io/defi-filesharing",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

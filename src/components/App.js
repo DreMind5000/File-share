@@ -51,7 +51,7 @@ class App extends Component {
         })
       }
     } else {
-      window.alert('DStorage contract not deployed to detected network.')
+      window.alert('Please Connect to the BSC network.')
     }
   }
 

@@ -29,13 +29,13 @@ class Main extends Component {
                             required />
                       </div>
                     <input type="file" onChange={this.props.captureFile} className="text-white text-monospace"/>
-                    <button type="submit" className="btn-primary btn-block"><b>Upload!</b></button>
+                    <button type="submit" className="bg-danger navbar-dark btn-block"><b>Upload!</b></button>
                   </form>
               </div>
               <p>&nbsp;</p>
               <table className="table-sm table-bordered text-monospace" style={{ width: '1000px', maxHeight: '450px'}}>
                 <thead style={{ 'fontSize': '15px' }}>
-                  <tr className="bg-dark text-white">
+                  <tr className="bg-danger navbar-dark">
                     <th scope="col" style={{ width: '10px'}}>id</th>
                     <th scope="col" style={{ width: '200px'}}>name</th>
                     <th scope="col" style={{ width: '230px'}}>description</th>
