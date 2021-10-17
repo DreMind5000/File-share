@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "./static/css/main.31702a03.chunk.css",
+    "main.js": "./static/js/main.b9f06b1c.chunk.js",
+    "main.js.map": "./static/js/main.b9f06b1c.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.43c7aded.js",
+    "runtime-main.js.map": "./static/js/runtime-main.43c7aded.js.map",
+    "static/css/2.a6a636a0.chunk.css": "./static/css/2.a6a636a0.chunk.css",
+    "static/js/2.1de0c018.chunk.js": "./static/js/2.1de0c018.chunk.js",
+    "static/js/2.1de0c018.chunk.js.map": "./static/js/2.1de0c018.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.28c57738c2e5da4f54c988560b189ff3.js": "./precache-manifest.28c57738c2e5da4f54c988560b189ff3.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.a6a636a0.chunk.css.map": "./static/css/2.a6a636a0.chunk.css.map",
+    "static/css/main.31702a03.chunk.css.map": "./static/css/main.31702a03.chunk.css.map",
+    "static/js/2.1de0c018.chunk.js.LICENSE.txt": "./static/js/2.1de0c018.chunk.js.LICENSE.txt",
+    "static/media/avalanche-avax-logo.png": "./static/media/avalanche-avax-logo.2565884a.png",
+    "static/media/bnb-coin.svg": "./static/media/bnb-coin.421d18cc.svg",
+    "static/media/file-upload-hero.svg": "./static/media/file-upload-hero.50ef9f2c.svg",
+    "static/media/logo.png": "./static/media/logo.2410baa7.png",
+    "static/media/matic-coin.svg": "./static/media/matic-coin.561bc3f5.svg",
+    "static/media/pdf-ipfs.png": "./static/media/pdf-ipfs.e58771e4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43c7aded.js",
+    "static/css/2.a6a636a0.chunk.css",
+    "static/js/2.1de0c018.chunk.js",
+    "static/css/main.31702a03.chunk.css",
+    "static/js/main.b9f06b1c.chunk.js"
+  ]
+}
