@@ -24,6 +24,8 @@ module.exports = {
       network_id: 3
     },
 
+    
+
     testnet: {
       provider: () => new HDWalletProvider(mnemonic, `https://speedy-nodes-nyc.moralis.io/e4727e48ab5cce3dd0141b99/bsc/testnet`),
       network_id: 97,
@@ -37,7 +39,38 @@ module.exports = {
       confirmations: 10,
       timeoutBlocks: 200,
       skipDryRun: true
-    }
+    },
+
+  
+    avax: {
+      provider: () => new HDWalletProvider(mnemonic, `https://speedy-nodes-nyc.moralis.io/e4727e48ab5cce3dd0141b99/avalanche/mainnet`),
+      network_id: "*",
+      confirmations: 2,
+      timeoutBlocks: 200,
+      skipDryRun: true,
+
+    },
+
+
+      matic: {
+        provider: () => new HDWalletProvider(mnemonic, `https://speedy-nodes-nyc.moralis.io/e4727e48ab5cce3dd0141b99/polygon/mainnet`),
+        network_id: 137,
+        confirmations: 2,
+        timeoutBlocks: 200,
+        skipDryRun: true,
+        gas: 6000000,
+        gasPrice: 10000000000,
+      },
+
+      avax2: {
+        provider: () => new HDWalletProvider(mnemonic, `https://speedy-nodes-nyc.moralis.io/e4727e48ab5cce3dd0141b99/avalanche/mainnet`),
+        network_id: "*",
+        confirmations: 2,
+        timeoutBlocks: 200,
+        skipDryRun: true,
+        gas: 3000000,
+        gasPrice: 225000000000,
+      },
 
   },
   contracts_directory: './src/contracts/',
@@ -51,3 +84,4 @@ module.exports = {
     }
   }
 }
+

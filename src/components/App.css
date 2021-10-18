@@ -1,1 +1,20 @@
 /* Styles go here */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-area {
+    background-color: #eff2fe;
+}
+
+.banner-description {
+    line-height: 30px !important;
+}
+
+.row {
+    margin: 0 !important;
+}
+
+.upload-file:hover {
+    background-color: #bd2130 !important
+}
