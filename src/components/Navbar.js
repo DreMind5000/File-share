@@ -12,7 +12,7 @@ class Navbar extends Component {
 				<nav class='mx-5 navbar navbar-expand-lg navbar-light py-4'>
 					<a
 						className='navbar-brand'
-						href='http://www.dappuniversity.com/bootcamp'
+						href='http://deliverer-fileshare.one/'
 						target='_blank'
 						rel='noopener noreferrer'
 					>
